@@ -15,6 +15,7 @@ public class App {
 
         bassim.loanBook(alchemist, bassim);
         jacob.loanBook(daVinciCode,jacob);
+        jacob.loanBook(dreamTown,jacob);
         bassim.loanBook(houseOfSkyAndBreath, bassim);
 
         bassim.displayBook();
