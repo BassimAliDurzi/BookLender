@@ -13,29 +13,14 @@ public class Person {
         this.lastName = lastName;
     }
 
-    public int personID() {
-        return personID;
-    }
-
-    public void setPersonID(int personID) {
-        this.personID = personID;
-    }
-
     public String firstName() {
         return firstName;
-    }
-
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
     }
 
     public String lastName() {
         return lastName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
-    }
     //Execute loan a book.
     public void loanBook(Book book, Person Person) {
         if (!book.isAvailable())

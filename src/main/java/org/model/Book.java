@@ -34,11 +34,6 @@ public class Book {
         System.out.println(person.firstName() + " " + person.lastName());
         return this.person = person;
     }
-
-    public Person person() {
-        return person;
-    }
-
     public void setPerson(Person person) {
         this.person = person;
     }
